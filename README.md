@@ -13,9 +13,9 @@
 
 ## Deploy, Run and Test
 
-- [test report]()
-- [deployed link]()
-- [Pull Request]()
+- [test report](https://github.com/NashatAlzaatreh/basic-api-server/actions)
+- [deployed link](https://nashat-basic-api-server.herokuapp.com/)
+- [Pull Request](https://github.com/NashatAlzaatreh/basic-api-server/pull/2)
 
 ### Setup
 
@@ -27,25 +27,23 @@
 
 - either:
   1. `npm start`
-  1. `nodemon`
+  1. `npm run dev` (nodemon)
 - Endpoints: `/food`,
 
   - returns Object
 
-    ![Object]()
+    ![Object](./img/getAllFoodData.PNG)
 
 - Endpoint: `/clothes`
 
   - returns Object
 
-    ![Object]()  
-
+    ![Object](./img/getAllClothesData.PNG)
 
 #### Test
 
 - Unit test: `npm run test`
-- Lint test: `npm run lint`
 
 ### UML:
 
-![uml]()
+![uml](./img/lab03uml.PNG)
