@@ -89,13 +89,13 @@ describe("API Server Testing", () => {
   });
 
   it("can update one clothes item", async () => {
-    const response = await mockRequest.put("/clothes/3").send({
+    const response = await mockRequest.put("/clothes/1").send({
       name: "jacket",
       price: 25,
       season: "winter",
     });
 
-    expect(response.status).toBe(200);
+    expect(response.status).toBe(201);
   });
   // test if can delete a person
   it("should delete a food item", async () => {
